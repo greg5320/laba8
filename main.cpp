@@ -15,6 +15,10 @@ int privet(int x) {
     cout << "Привет " << x << endl;
 }
 
+int HappyNewYear(int a) {
+    cout << a;
+}
+
 int main() {
     int n;
     cin >> n;
