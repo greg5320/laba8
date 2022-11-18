@@ -19,6 +19,7 @@ int HappyNewYear(int a) {
     cout << a;
 }
 
+
 int main() {
     int n;
     cin >> n;
