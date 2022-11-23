@@ -94,7 +94,7 @@ int main() {
     cout << endl;
     delete[]A;
     cout << B << "  " << B[0] << "  " << B[2] << endl;
-    cout << B[0][0] << "  " << **B << "  " << *B[0] << endl; //
+    cout << B[0][0] << "  " << **B << "  " << *B[0] << endl;
     cout << *(*(B + 1)) << "  " << *B[1] << endl;
     cout << *(B[0] + 1) << "  " << *(*B + 1) << endl;
     cout << B[0][20] << "  " << *(B[0] + 20) << "  " << *B[2] << endl;
